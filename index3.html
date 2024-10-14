@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modified Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            background-color: yellow; 
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 40px;
+            text-align: center;
+            color: blue;
+            font-size: 20px; 
+            font-weight: bold; 
+        }
+        th {
+            background-color: #750b0b;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2"></th> 
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td rowspan="2">Row 2, Cell 2<br>Part 2</td> 
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+        </tr>
+    </table>
+</body>
+</html>

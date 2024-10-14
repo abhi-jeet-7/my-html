@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    
+</head>
+<body>
+
+    <h1>different types of form elements</h1>
+
+    <form>
+        <div class="form-group">
+            <label for="textInput">Text Input:</label>
+            <input type="text" id="textInput" name="textInput" required>
+        </div>
+
+        <div class="form-group">
+            <label for="passwordInput">Password:</label>
+            <input type="password" id="passwordInput" name="passwordInput" required>
+        </div>
+
+        <div class="form-group">
+            <label for="fileUpload">File Upload:</label>
+            <input type="file" id="fileUpload" name="fileUpload">
+        </div>
+
+        <div class="form-group">
+            <input type="hidden" id="hiddenInput" name="hiddenInput" value="hiddenValue">
+        </div>
+
+        <div class="form-group">
+            <label>Choose your options:</label><br>
+            <input type="checkbox" id="option1" name="options" value="option1">
+            <label for="option1">Option 1</label><br>
+            <input type="checkbox" id="option2" name="options" value="option2">
+            <label for="option2">Option 2</label><br>
+            <input type="checkbox" id="option3" name="options" value="option3">
+            <label for="option3">Option 3</label>
+        </div>
+
+        <div class="form-group">
+            <label>Choose one:</label><br>
+            <input type="radio" id="radio1" name="radioOptions" value="radio1" required>
+            <label for="radio1">Radio Option 1</label><br>
+            <input type="radio" id="radio2" name="radioOptions" value="radio2">
+            <label for="radio2">Radio Option 2</label><br>
+            <input type="radio" id="radio3" name="radioOptions" value="radio3">
+            <label for="radio3">Radio Option 3</label>
+        </div>
+
+        <div class="form-group">
+            <label for="selectObject">Select an option:</label>
+            <select id="selectObject" name="selectObject" required>
+                <option value="">--Please choose an option--</option>
+                <option value="optionA">Option A</option>
+                <option value="optionB">Option B</option>
+                <option value="optionC">Option C</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
+
